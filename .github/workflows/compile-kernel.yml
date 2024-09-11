@@ -13,11 +13,11 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "likknb"
         type: choice
         options:
           - unifreq
-          - codesnas
+          - likknb
       kernel_version:
         description: "Select kernel version"
         required: false
